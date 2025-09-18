@@ -1,0 +1,39 @@
+*{
+    margin: 0%; /*remove margem da pagina inteira*/
+}
+.c1{
+    background-color: rgb(99, 99, 145);   /*cor do fundo da pagina*/
+    width: 500px;
+    height: 400px;
+    margin-top: 20px; /*espaco no topo da pagina*/
+    margin-bottom: 20px;/*espaco embaixo da pagina*/
+    padding: 20px;
+    border:  solid red;
+    border-radius: 50px;
+    box-sizing: border-box; /*deixa  a caixa do tamanho q eu quiser*/
+    margin: 50px; /*espaco em todos os lados
+    bottom espaco embaixo*/
+
+}
+.c2{
+      background-color: #B66626; /*cor do fundo da pagina*/
+      color: rgb(0, 10, 10); /*cor do texto da pagina em RGB*/
+      width: 600px;
+      height: 700px;
+    
+    }
+.c3{
+        background-image: url(https://tse1.mm.bing.net/th/id/OIP.VRoq-GDmcaGKWnEMrYLW7AHaE8?rs=1&pid=ImgDetMain&o=7&rm=3); height: 500px; /*adicionando imagem como fundo*/
+        /*background-repeat: no-repeat;*/
+        background-position: center;
+        width: 500px;
+        background-color: #B66626;
+        background-size:contain ; /*imagem cobre toda a pagina mas corta algumas partes*/
+        background-size: cover;  /*imagem cobre toda a pagina*/
+        background: red no-repeat center;  /*usa mas de uma */
+    }
+    h3{
+        color: white;
+        text-align: center;
+    }
+    /* a caixa tem 4 lados e 
