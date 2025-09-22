@@ -1,0 +1,14 @@
+/*Uma pseudo classe é uma palavra-chave adicionada a seletores q especifica um estado especial do elemento selelionado*/
+h2{
+    color: blue;
+    background-color: brown;
+    margin: 30px;
+    padding: 40px;
+}
+.bx1:hover{ 
+background-color: blueviolet;
+}
+div:hover > p{
+    display: inline;
+    color: blanchedalmond;
+}
