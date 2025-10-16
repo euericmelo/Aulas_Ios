@@ -1,0 +1,21 @@
+body{
+    text-align:center ;
+}
+    p {
+        text-align: right;
+        background-color: rgb(224, 191, 255);
+        color: black;
+        }
+        
+        #p2{
+            text-align: center;
+        }
+            .grupo{
+                text-align: left; 
+                color: rgb(133, 206, 104);
+                border: 10px solid;
+                border-radius: 10px;
+                margin: 50px;
+                padding: 30px;
+                font-family: fantasy ;
+            }
