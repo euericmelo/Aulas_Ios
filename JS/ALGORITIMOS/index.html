@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+           <a href="index.html" class="link">ALGORITIMO O1</a>
+           <a href="a2.html" class="link">ALGORITIMO 02</a>
+           <a href="a3.html" class="link">ALGORITIMO 03</a>
+           <a href="a4.html" class="link">ALGORITIMO04</a>
+          
+        </nav>
+    </header>
+    <main>
+        <h1>Bem Vindos</h1>
+        <p>Essa é minha pagina de exercicios de algoritimos </p>
+        <button onclick="clique()" type="button">INICIAR CALCULO</button>
+    </main>
+    <script>
+        function clique(){
+        let nome = prompt("Olá seja bem vindo, pode digitar seu nome?")
+        alert(`Olá ${nome} pode fala o preço do produto que quer consultar?`)
+        let preço = Number(prompt("Digite o preço aqui!"))
+        let desconto = preço * 0.15;
+        let  resultado = preço - desconto;
+        alert(`Olá ${nome} o valor do produto com desconto de 15% é  R$ ${resultado}`)
+
+    }
+    </script>
+</body>
+</html>
