@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.titulo{
+    background-color: rgb(187, 0, 0);
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.titulo:hover{
+    color: #4c0cc4;
+}
+button{
+    border: none;
+    margin: 2px;
+    background-color: green ;
+    padding: 7px;
+    border-radius: 8px;
+    color: #ffffff;
+}
+button:hover{
+opacity: 0.7;
+}
+input{
+    padding: 20px;
+    margin: 20px;
+}
