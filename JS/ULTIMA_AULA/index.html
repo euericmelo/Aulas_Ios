@@ -1,1 +1,41 @@
-zzz
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <h1>Eric Martins</h1>
+
+        <button class="btn" onclick="mudarFundo()
+        mudarTexto()"    type="button"  id="text">Tema Escuro</button>
+
+    </header>
+    <section class="ss1">
+        <h2>Verificador de senhas</h2>
+        <div class="vrfc">
+            <input id="senha1" placeholder="Digite sua senha" type="password">
+            <input id="senha2" placeholder="Comfirme sua senha" type="password">
+            <button class="btn2" onclick="compararSenha()" type="button">Verificar</button>
+            <p id="mensagem"></p>
+        </div>
+    </section>
+    <section class="ss1">
+        <h2>Soma Numeros</h2>
+        <div class="vrfc">
+            <input id="numero1" placeholder="Digite um numero" type="number">
+            <input id="numero2" placeholder="Digite outro numero" type="number">
+            <button class="btn2" onclick="somaNumeros()" type="button">Somar</button>
+            <p id="resultado"></p>
+        </div>
+    </section>
+
+    <script src="scrypt.js"></script>
+</body>
+
+</html>
